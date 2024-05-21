@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import "./card.css";
+import "./Card.css";
 
 export default function Card({ image, alt, title, price }) {
   const [quantity, setQuantity] = useState(0);
